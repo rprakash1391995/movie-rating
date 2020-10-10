@@ -10,7 +10,7 @@ document.querySelector('#movieForm').addEventListener('submit', (e) => {
     document.querySelector('#scroll').insertAdjacentHTML('beforeend',markup1);
 
     try {
-       fetch(`https://github.com/Rob--W/cors-anywhere/http://www.omdbapi.com/?s=${movie}&apikey=47a0db19`)
+       fetch(`https://crossorigin.me/http://www.omdbapi.com/?s=${movie}&apikey=47a0db19`)
             .then(result =>{
                 return result.json();
             })
