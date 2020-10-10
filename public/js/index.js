@@ -10,7 +10,7 @@ document.querySelector('#movieForm').addEventListener('submit', (e) => {
     document.querySelector('#scroll').insertAdjacentHTML('beforeend',markup1);
 
     try {
-       fetch(`http://www.omdbapi.com/?s=${movie}&apikey=47a0db19`)
+       fetch(`https://www.omdbapi.com/?s=${movie}&apikey=47a0db19`)
             .then(result =>{
                 return result.json();
             })
