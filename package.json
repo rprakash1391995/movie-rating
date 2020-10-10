@@ -17,6 +17,7 @@
   "homepage": "https://github.com/rprakash1391995/movie-rating#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "webpack": "^4.44.2"
